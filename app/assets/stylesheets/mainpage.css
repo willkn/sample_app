@@ -1,0 +1,157 @@
+.parallax {
+    background-image: url(pictures/theVeryBest.jpg);
+    height: 5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 80px;
+    position: sticky;
+    top: 5000px;
+    top: 0;
+    z-index: 10000;
+    font-weight: 800;
+    font-size: 20px;
+    border: 5px solid #f2f222;
+}
+
+.topnav a {
+    color: #f2f222;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 50px;
+    font-size: 50px;
+    position: relative;
+}
+
+.topnav a.active {
+    font-size: 60px;
+    color: white;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.albumHeader {
+    font-size: 40px;
+    color: #f2f222;
+
+}
+
+.content {
+    padding: none;
+}
+
+.row {
+    background-color: #333;
+    color: #f2f222;
+    width: 100%;
+    margin-top: -33px;
+    border: 5px solid #f2f222;
+}
+
+
+
+#albums {
+    font-size: 50px;
+}
+
+pre {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+
+#lemon:hover {
+    animation: shake 0.2s;
+    /*animation-iteration-count: infinite; */
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.navEl {
+    position: relative;
+    top: -10px;
+}
+
+.navEl:hover {  
+    color: white;
+}
+
+.profile {
+    background-color: #3b3b3b;
+}
+
+.indexColumn {
+    width: 23%;
+    float: left;
+    padding: 10px;
+}
+
+#login {
+    margin-left: 780px;
+    position: relative;
+}
