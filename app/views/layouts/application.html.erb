@@ -2,12 +2,18 @@
 <html>
 
 <head>
-    <title><%= @title %></title> <!-- prevents cross site request forgery -->
-    <%= csrf_meta_tag %> 
+    <title><%= title %></title>
+    <%= csrf_meta_tag %>
+    <%= render 'layouts/stylesheets' %>
 </head>
 
 <body>
-    <%= yield %>
+    <div class="container">
+        <%= render 'layouts/header' %>
+        <section class="round">
+            <%= yield %>
+        </section>
+        <%= render 'layouts/footer' %>
+    </div>
 </body>
-
 </html>
