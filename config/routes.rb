@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   get 'user/new'
   get 'pages/home', as: 'home'
   get 'pages/contact', as: 'contact'
@@ -7,5 +8,4 @@ Rails.application.routes.draw do
   #get 'pages/signin' as: 'signup'
 
   root :to => 'pages#home'
-
 end

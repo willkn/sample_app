@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Stone Roses</title>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <%= stylesheet_link_tag 'mainpage.css' %>
+
+  <link rel="stylesheet" type="text/css" href="mainpage.css">
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="index.html">
+    <%= image_tag("app/assets/images/lemonRose.jpg", :alt => "Sample App", :class => "round") %>
+    </a>
+    <a class="active navEl" href="index.html">Home</a>
+    <a class="navEl" href="albums.html">Albums</a>
+    <a id="login" class="navEl" href="login.html">Login</a>
+  </div>
+
+  <div class="parallax"></div>
+
+  <div style="height:800px; background-color: #333; color:#f2f222; width: 100%; margin-top: -21px;">
+    <div class="row">
+      <h1 align="center"> THE BAND</h1>
+      <div class="indexColumn">
+        <div class="profile">
+          <img src="pictures/ianBrown.jpg" height="600px" width=100%>
+          <div class="container">
+            <h1>Ian Brown</h1>
+            <br>
+            <p>Lead singer</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="indexColumn">
+        <div class="profile">
+          <img src="pictures/johnSquire.jpg" height="600px" width=100%>
+          <div class="container">
+            <h1>John Squire</h1>
+            <br>
+            <p>Lead guitarist</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indexColumn">
+        <div class="profile">
+          <img src="pictures/mani.jpg" height="600px" width=100%>
+          <div class="container">
+            <h1>Mani</h1>
+            <br>
+            <p>Bassist</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="indexColumn">
+        <div class="profile">
+          <img src="pictures/Reni.jpg" height="600px" width=100%>
+          <div class="container">
+            <h1>Reni</h1>
+            <br>
+            <p>Drummer</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="parallax"></div>
+</body>
+
+</html>
