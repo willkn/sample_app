@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get 'user/new'
+  get 'pages/home', as: 'home'
+  get 'pages/contact', as: 'contact'
+  get 'pages/about', as: 'about'
+  get 'pages/help', as: 'help'
+  #get 'pages/signin' as: 'signup'
+
+  root :to => 'pages#home'
+
 end
